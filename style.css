@@ -1,0 +1,527 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: red, transparent;
+  background-image: url(../img/wp.jpg);
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  height: auto;
+}
+/* navmenu start*/
+
+.logobar {
+  width: 10%;
+}
+
+.logo {
+  width: 180px;
+  height: 35px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: hsl(0, 0%, 100%);
+  z-index: 5;
+  box-shadow: 0 0 10px black;
+}
+
+.navmenu {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  z-index: 5;
+}
+
+.navmenu > a {
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link {
+  display: flex;
+  width: 20%;
+  height: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 5%;
+}
+
+.link > a {
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* navmenu end */
+
+/* mainhtml start */
+
+/* mainmenu start */
+
+.mainmenu {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+.mainmenu_title {
+  padding-top: 3%;
+  text-align: center;
+  font-size: 42px;
+}
+.mainpic {
+  background-image: url(../img/banner-bg-front.jpg);
+  width: 100%;
+  height: 460px;
+  box-shadow: 0 0 5px 0 black;
+}
+.search_qw_line {
+  display: flex;
+  margin: 5% auto;
+  width: 600px;
+  height: 40px;
+}
+
+.find_input_btn {
+  width: 120px;
+  height: 40px;
+  color: black;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 0 5px 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  outline: none;
+}
+
+.find_input_btn:hover {
+  color: white;
+  background-color: black;
+  transition: all 300ms;
+}
+
+.find_input {
+  display: flex;
+  width: 480px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+.qw_buttons {
+  display: flex;
+  width: 600px;
+  margin: 4% auto;
+  justify-content: space-between;
+}
+.qw_buttons > button {
+  width: 200px;
+  height: 40px;
+  outline: none;
+  justify-content: space-between;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.qw_buttons > button:hover {
+  color: white;
+  background-color: black;
+  transition: all 300ms;
+}
+
+.infobar {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  box-shadow: 0 0 5px black;
+}
+
+.jobs-block {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 1200px;
+  /* height: 20px; */
+  /* background-color: gray; */
+}
+
+.colorline1 {
+  width: 4%;
+  height: 100%;
+  background-color: hsl(313, 40%, 70%);
+}
+.colorline2 {
+  width: 4%;
+  height: 100%;
+  background-color: hsl(0, 40%, 50%);
+}
+.colorline3 {
+  width: 4%;
+  height: 100%;
+  background-color: hsl(255, 40%, 70%);
+}
+
+.vacansy_info {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.vacansy-block {
+  display: flex;
+  margin: 1% 1%;
+  width: 240px;
+  height: 100px;
+  background-color: hsla(0, 0%, 90%, 0.25);
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.news {
+  width: 1200px;
+  margin: 0 auto;
+}
+.newstitle {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 36px;
+}
+
+.newsdiv {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.newsblock {
+  display: flex;
+  width: 270px;
+  height: 72px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 95%, 0.4);
+}
+
+.news1 {
+  margin: auto;
+  margin-left: 5px;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+.newsblock > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 14px;
+  padding: 2px;
+}
+
+.newsdiv > a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+/* jobs */
+.jobs_prof {
+  width: 1200px;
+  margin: 2% auto;
+}
+.jobsbold{
+  font-weight: bold;
+  font-size: 18px;
+}
+.jobs_block {
+  display: flex;
+}
+
+.jobs_title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.adv_block {
+  display: flex;
+  width: 250px;
+  height: 160px;
+  border: 1px solid gray;
+  background-color: hsla(0, 0%, 90%, 0.8);
+  justify-content: center;
+  align-items: center;
+  margin: 0 2%;
+}
+.jobline {
+  width: 1px;
+  height: 172px;
+  background-color: hsla(0, 0%, 70%, 0.8);
+}
+
+.joblist {
+  margin: 0 2%;
+}
+
+.jobs_list > a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+.j_city{
+  display: flex;
+  margin: 0 2%;
+
+}
+.jobscity>a{
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+/* footer start*/
+.footer {
+  margin-top: 7%;
+  background-color: hsla(0, 0%, 90%, 0.4);
+  width: 100%;
+  height: 200px;
+  /* position: absolute; */
+  display: flex;
+  bottom: 0;
+}
+
+.copyright {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  margin-left: 15%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  justify-content: space-evenly;
+  font-size: 16px;
+}
+
+.info > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  text-align: left;
+}
+
+/* footer end */
+
+/* mainmenu end */
+
+/* mainhtml end */
+
+/* taskhtml start */
+.task_title {
+  padding-top: 1%;
+}
+.qw {
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.qwcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  background-color: rgba(177, 177, 177, 0.25);
+  width: 350px;
+  margin: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.qwtitle {
+  color: grey;
+  font-size: 18px;
+}
+
+.qwprice {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 10%;
+}
+
+.qwbutton {
+  margin-top: 2%;
+  border: none;
+  outline: 0;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+
+/* taskhtml end */
+
+/* taskaddhtml start */
+.maintaskmenu > div {
+  padding-top: 2%;
+}
+.addtask_title {
+  padding-top: 1%;
+}
+
+.addtask_city {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#select_city {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.addtask_category {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#select_category {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.addtask_title_p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#addtask_title {
+  width: 500px;
+  height: 40px;
+  padding-left: 1%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: 0;
+  font-size: 18px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.addtask_description {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#addtask_description {
+  width: 700px;
+  max-height: 150px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: 0;
+  font-size: 16px;
+  padding: 5px 10px 5px 10px;
+  resize: vertical;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.addtask_price {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#addtask_price {
+  width: 150px;
+  height: 30px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: solid 1px gray;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.addtask_date {
+  font-weight: bold;
+  font-size: 18px;
+}
+#addtask_date {
+  width: 150px;
+  height: 30px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: solid 1px gray;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.taskadd_button {
+  margin-top: 2%;
+  width: 200px;
+  height: 40px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  outline: none;
+  border-radius: 10px;
+  border: solid 1px gray;
+  background-color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.taskadd_button:hover {
+  transition: all 300ms;
+  background-color: black;
+  color: white;
+}
+
+/* taskaddhtml end */
+
+/* abouthtml start */
+
+.about_us_title > h1 {
+  font-size: 32px;
+}
+
+.about_us_title > p {
+  font-size: 20px;
+}
+
+.about_us_text > p {
+  padding-top: 1%;
+  font-size: 18px;
+}
+
+.about_us_info {
+  font-size: 24px;
+}
